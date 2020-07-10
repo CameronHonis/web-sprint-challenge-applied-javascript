@@ -1,0 +1,19 @@
+
+#error{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    width: 100vw;
+    height: 150vh;
+    font-size: 40px;
+    background: rgba(0,0,0,.8);
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+    transition: 1;
+}
+.hidden{
+    top: -50%;
+    display: none;
+}
